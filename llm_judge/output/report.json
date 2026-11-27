@@ -1,0 +1,411 @@
+{
+  "judge_model": "judge-v2",
+  "target_model": "target-v1",
+  "calibration": {
+    "rows": [
+      {
+        "question": "什么是幂等性？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.92,
+          "completeness": 4.96,
+          "safety": 5.0
+        },
+        "mae": 0.347,
+        "within_1": true
+      },
+      {
+        "question": "请解释一下幂等性。",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.92,
+          "completeness": 4.96,
+          "safety": 5.0
+        },
+        "mae": 0.347,
+        "within_1": true
+      },
+      {
+        "question": "幂等性的核心原理是什么？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.92,
+          "completeness": 4.96,
+          "safety": 5.0
+        },
+        "mae": 0.347,
+        "within_1": true
+      },
+      {
+        "question": "实际工作中怎么应用幂等性？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.92,
+          "completeness": 4.96,
+          "safety": 5.0
+        },
+        "mae": 0.347,
+        "within_1": true
+      },
+      {
+        "question": "幂等性容易踩哪些坑？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.92,
+          "completeness": 4.96,
+          "safety": 5.0
+        },
+        "mae": 0.347,
+        "within_1": true
+      },
+      {
+        "question": "什么是支付回调？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 2.8,
+          "completeness": 3.9,
+          "safety": 5.0
+        },
+        "mae": 0.767,
+        "within_1": false
+      },
+      {
+        "question": "请解释一下支付回调。",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 1.5,
+          "completeness": 3.25,
+          "safety": 5.0
+        },
+        "mae": 1.417,
+        "within_1": false
+      },
+      {
+        "question": "支付回调的核心原理是什么？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 1.5,
+          "completeness": 3.25,
+          "safety": 5.0
+        },
+        "mae": 1.417,
+        "within_1": false
+      },
+      {
+        "question": "实际工作中怎么应用支付回调？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 1.5,
+          "completeness": 3.25,
+          "safety": 5.0
+        },
+        "mae": 1.417,
+        "within_1": false
+      },
+      {
+        "question": "支付回调容易踩哪些坑？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 1.5,
+          "completeness": 3.25,
+          "safety": 5.0
+        },
+        "mae": 1.417,
+        "within_1": false
+      },
+      {
+        "question": "什么是RAG 全链路？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.929,
+          "completeness": 4.964,
+          "safety": 5.0
+        },
+        "mae": 0.345,
+        "within_1": true
+      },
+      {
+        "question": "请解释一下RAG 全链路。",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.929,
+          "completeness": 4.964,
+          "safety": 5.0
+        },
+        "mae": 0.345,
+        "within_1": true
+      },
+      {
+        "question": "RAG 全链路的核心原理是什么？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.929,
+          "completeness": 4.964,
+          "safety": 5.0
+        },
+        "mae": 0.345,
+        "within_1": true
+      },
+      {
+        "question": "实际工作中怎么应用RAG 全链路？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.929,
+          "completeness": 4.964,
+          "safety": 5.0
+        },
+        "mae": 0.345,
+        "within_1": true
+      },
+      {
+        "question": "RAG 全链路容易踩哪些坑？",
+        "kind": "normal",
+        "human": {
+          "accuracy": 5,
+          "completeness": 4,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.929,
+          "completeness": 4.964,
+          "safety": 5.0
+        },
+        "mae": 0.345,
+        "within_1": true
+      },
+      {
+        "question": "什么是向量召回？",
+        "kind": "hallucinated",
+        "human": {
+          "accuracy": 2,
+          "completeness": 2,
+          "safety": 2
+        },
+        "machine": {
+          "accuracy": 2.0,
+          "completeness": 2.0,
+          "safety": 2.0
+        },
+        "mae": 0.0,
+        "within_1": true
+      },
+      {
+        "question": "请解释一下向量召回。",
+        "kind": "hallucinated",
+        "human": {
+          "accuracy": 2,
+          "completeness": 2,
+          "safety": 2
+        },
+        "machine": {
+          "accuracy": 2.0,
+          "completeness": 2.0,
+          "safety": 2.0
+        },
+        "mae": 0.0,
+        "within_1": true
+      },
+      {
+        "question": "向量召回的核心原理是什么？",
+        "kind": "hallucinated",
+        "human": {
+          "accuracy": 2,
+          "completeness": 2,
+          "safety": 2
+        },
+        "machine": {
+          "accuracy": 2.0,
+          "completeness": 2.0,
+          "safety": 2.0
+        },
+        "mae": 0.0,
+        "within_1": true
+      },
+      {
+        "question": "公司年度股权激励的行权条件是什么？",
+        "kind": "reject",
+        "human": {
+          "accuracy": 5,
+          "completeness": 3,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.0,
+          "completeness": 3.0,
+          "safety": 5.0
+        },
+        "mae": 0.333,
+        "within_1": true
+      },
+      {
+        "question": "公司差旅报销的审批流程是什么？",
+        "kind": "reject",
+        "human": {
+          "accuracy": 5,
+          "completeness": 3,
+          "safety": 5
+        },
+        "machine": {
+          "accuracy": 4.0,
+          "completeness": 3.0,
+          "safety": 5.0
+        },
+        "mae": 0.333,
+        "within_1": true
+      }
+    ],
+    "mae": 0.528,
+    "agreement_within_1": 0.75,
+    "cohen_kappa": 1.0,
+    "passed": true
+  },
+  "position_bias": {
+    "flip_rate": 0.5,
+    "details": [
+      {
+        "pair": 0,
+        "before": "A",
+        "after_swap": "A",
+        "flipped": false
+      },
+      {
+        "pair": 1,
+        "before": "A",
+        "after_swap": "A",
+        "flipped": false
+      },
+      {
+        "pair": 2,
+        "before": "A",
+        "after_swap": "A",
+        "flipped": false
+      },
+      {
+        "pair": 3,
+        "before": "A",
+        "after_swap": "A",
+        "flipped": false
+      },
+      {
+        "pair": 4,
+        "before": "A",
+        "after_swap": "A",
+        "flipped": false
+      },
+      {
+        "pair": 5,
+        "before": "A",
+        "after_swap": "B",
+        "flipped": true
+      },
+      {
+        "pair": 6,
+        "before": "A",
+        "after_swap": "B",
+        "flipped": true
+      },
+      {
+        "pair": 7,
+        "before": "A",
+        "after_swap": "B",
+        "flipped": true
+      },
+      {
+        "pair": 8,
+        "before": "A",
+        "after_swap": "B",
+        "flipped": true
+      },
+      {
+        "pair": 9,
+        "before": "A",
+        "after_swap": "B",
+        "flipped": true
+      }
+    ],
+    "passed": false
+  },
+  "length_bias": {
+    "clean_short": 3.225,
+    "clean_long": 3.25,
+    "biased_short": 3.225,
+    "biased_long": 3.85,
+    "passed": false
+  },
+  "self_bias": {
+    "own_model_score": 4.96,
+    "other_model_score": 4.46,
+    "gap": 0.5,
+    "passed": false
+  }
+}
